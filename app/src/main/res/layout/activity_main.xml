@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#CDDC39"
+    android:background="#F2EEEE"
     android:padding="16dp"
     tools:context=".MainActivity">
 
@@ -13,7 +13,7 @@
         android:id="@+id/appNameTv"
         android:layout_width="0dp"
         android:layout_height="65dp"
-        android:background="#DC4242"
+        android:background="#4CAF50"
         android:gravity="center"
         android:text="WISH IT"
         android:textColor="@color/white"
@@ -22,14 +22,15 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-        //
+    //
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/wishlistRv"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
-        android:background="#CDDC39"
+        android:background="#4CAF50"
         app:layout_constraintBottom_toTopOf="@+id/itemNameEt"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -60,7 +61,10 @@
         android:id="@+id/addButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#4CAF50"
+        android:backgroundTintMode="add"
         android:text="WISH"
+        android:textColorLink="#4CAF50"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
